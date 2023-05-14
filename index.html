@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather App</title>
+    <link rel="stylesheet" href="/weather.css">
+
+<!-- GOOGLE FONTS -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Josefin+Sans&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Prompt:ital,wght@0,300;0,400;1,300&family=Rubik+Iso&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<div class="container">
+    <video autoplay muted loop src="/Public/pexels-free-videos-854002-1920x1080-24fps.mp4" type="video/mp4">
+    </video>
+</div>
+<div class="header">
+    <h1>Weather Forecast</h1>
+    <div class="iandsearch">
+        <input type="text" id="input" placeholder="Enter the city name">
+        <button class="btn-submit" type="submit" id="search">Search</button>
+
+    </div>
+</div>
+<main>
+    <div class="weather">
+        <h2 id="city">City, IN</h2>
+        <div class="temp-box">
+            <img src="/Public/cloudy.png" id="img">
+            <p id="temp">XX <span>&#8451;</span></p>
+        </div>
+        <span id="clouds">Broken Clouds</span>
+    </div>
+    <div class="divider1"></div>
+    <div class="forecastH">
+        <p class="cast-header">Upcoming forecast</p>
+        <div class="templist">
+            <div class="next">
+                <div>
+                <p class="time">X:XX PM</p>
+                <p class="temp">XX <span>&#8451;</span>/ XX <span>&#8451;</p>
+            </div>
+            <p class="desc">Light Rain</p>
+        </div>
+            <div class="next">
+                <div>
+                <p class="time">X:XX PM</p>
+                <p class="temp">XX <span>&#8451;</span>/ XX <span>&#8451;</p>
+            </div>
+            <p class="desc">Light Rain</p>
+        </div>
+            <div class="next">
+                <div>
+                <p class="time">X:XX PM</p>
+                <p class="temp">XX<span>&#8451;</span>/ XX <span>&#8451;</p>
+            </div>
+            <p class="desc">Light Rain</p>
+        </div>
+            <div class="next">
+                <div>
+                <p class="time">X:XX PM</p>
+                <p class="temp">XX <span>&#8451;</span>/ XX <span>&#8451;</p>
+            </div>
+            <p class="desc">Light Rain</p>
+        </div>
+    </div>
+    </div>
+</main>
+
+<div class="forecstD">
+    <div class="divider2">
+        <p class="cast-header" id="casth">Next 4 Days Forecast</p>
+        <div class="weekF">
+            <div class="dayF">
+            <p class="date">Sun Jul 03 2022</p>
+            <p class="temp">25 <span>&#8451;</span>/ 26 <span>&#8451;</p>
+                <p class="desc">Overcast Clouds</p>
+        </div>
+        <div class="dayF">
+            <p class="date">Sun Jul 03 2022</p>
+            <p class="temp">25 <span>&#8451;</span>/ 26 <span>&#8451;</p>
+                <p class="desc">Overcast Clouds</p>
+        </div>
+        <div class="dayF">
+            <p class="date">Sun Jul 03 2022</p>
+            <p class="temp">25 <span>&#8451;</span>/ 26 <span>&#8451;</p>
+                <p class="desc">Overcast Clouds</p>
+        </div>
+        <div class="dayF">
+            <p class="date">Sun Jul 03 2022</p>
+            <p class="temp">25 <span>&#8451;</span>/ 26 <span>&#8451;</p>
+                <p class="desc">Overcast Clouds</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="/weather.js" type="module"></script>
+</body>
+</html>
